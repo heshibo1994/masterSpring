@@ -6,6 +6,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 public class LoginLogDAO {
     private JdbcTemplate jdbcTemplate;
+    //保存登陆日志
     private final static String INSERT_LOGIN_LOG_SQL = "INSERT INTO t_login_log(user_id,ip,login_datetime) VALUES(?,?,?)";
 
     public void insertLoginLogSql(LoginLog loginLog){
