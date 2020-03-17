@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+    <!-- 引用Bean -->
+    <bean id="boss1" class="com.smart.attr.Boss">
+        <property name="favorites">
+            <list>
+                <value>看报</value>
+                <value>赛车</value>
+                <value>高尔夫</value>
+                </list>
+        </property>
+
+        <property name="jobs">
+            <map>
+                <entry>
+                    <key><value>AM</value></key>
+                    <value>回见客户</value>
+                </entry>
+                <entry>
+                    <key><value>PM</value></key>
+                    <value>开会</value>
+                </entry>
+            </map>
+        </property>
+        <property name="mails">
+            <props>
+                <prop key="jobMails">123@email</prop>
+                <prop key="lifeMails">456@email</prop>
+            </props>
+        </property>
+        <property name="jobTimes">
+            <map>
+                <entry>
+                    <key><value>PM</value></key>
+                    <value>123</value>
+                </entry>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="parentBoss" abstract="true" class = "com.smart.attr.Boss">
+        <property name="favorites">
+            <list>
+                <value>看报</value>
+                <value>赛车</value>
+                <value>高尔夫</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="childBoss" parent="parentBoss" class = "com.smart.attr.Boss">
+        <property name="favorites">
+            <list merge="true">
+                <value>游泳</value>
+                <value>自行车车</value>
+                <value>足球</value>
+            </list>
+        </property>
+    </bean>
+
+
+
+</beans>

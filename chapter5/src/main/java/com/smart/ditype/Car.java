@@ -16,4 +16,16 @@ public class Car {
     public void setMaxSpeed(int maxSpeed) {
         this.maxSpeed = maxSpeed;
     }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public int getMaxSpeed() {
+        return maxSpeed;
+    }
 }
