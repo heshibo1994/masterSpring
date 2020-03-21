@@ -1,5 +1,10 @@
-com\smart\ditype\CarFactory.class
 com\smart\attr\Boss.class
 com\smart\ditype\Car.class
+com\smart\injectfun\MagicBoss.class
+com\smart\fb\CarFactoryBean.class
+com\smart\ditype\CarFactory.class
+com\smart\fb\Car.class
+com\smart\injectfun\Car.class
 com\smart\ditype\Boss.class
+com\smart\tagdepend\Car.class
 com\smart\ditype\Office.class
