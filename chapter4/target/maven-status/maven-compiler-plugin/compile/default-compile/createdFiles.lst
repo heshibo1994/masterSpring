@@ -1,3 +1,4 @@
-com\smart\beanfactory\BeanFactoryTest.class
+com\smart\context\AnnotationApplicationTest.class
+com\smart\context\Beans.class
 com\smart\reflect\Car.class
 com\smart\reflect\ReflectTest.class

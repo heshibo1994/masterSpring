@@ -2,44 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce4fa7d2-5464-4c26-80a1-a76e5f180308" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../chapter5/src/main/java/com/smart/anno/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter5/src/main/java/com/smart/anno/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter5/src/main/java/com/smart/anno/LogDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter5/src/main/java/com/smart/anno/LogonServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter5/src/main/java/com/smart/anno/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter5/src/main/java/com/smart/conf/AppConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter5/src/main/java/com/smart/conf/JavaConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter5/src/main/java/com/smart/conf/LogDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter5/src/main/java/com/smart/conf/LogonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter5/src/main/java/com/smart/conf/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/concept/Forum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/concept/ForumDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/concept/ForumService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/concept/PerformanceMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/concept/TopicDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/concept/TransactionManage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/ForumService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/ForumServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/MethodPerformace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/PerformanceHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/PerformanceMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/proxy/ForumService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/proxy/ForumServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/proxy/MethodPerformace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/proxy/PerformanceMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/proxy/TestForumService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/smart/jdkproxy/ForumServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter5/src/main/java/com/smart/fb/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter5/src/main/java/com/smart/fb/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter5/src/main/java/com/smart/fb/CarFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter5/src/main/java/com/smart/fb/CarFactoryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter5/src/main/resources/com.smart.fb/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter5/src/main/resources/com.smart.fb/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter5/src/test/java/com/smart/fb/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter5/src/test/java/com/smart/fb/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter5/target/chapter5-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter5/target/chapter5-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter5/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter5/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter5/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter5/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter5/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter5/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter5/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter5/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter5/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter5/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advice/GreetingAfterAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advice/GreetingBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advice/GreetingInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advice/NavieWaiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advice/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advisor/GreetingAdvisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advisor/GreetingBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advisor/GreetingDynamicPointcut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advisor/Seller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/advisor/WaiterDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/introduce/ControlablePerformaceMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/introduce/ForumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/introduce/ForumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/introduce/Monitorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/introduce/PerformanceMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com.smart.advisor/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/smart/advice/AdviceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/smart/advice/BeforeAdviceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/smart/advisor/AdvisorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/smart/introduce/IntroduceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/smart/introduce/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com.smart.introduce/beans.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,66 +34,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/ForumService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com.smart.advisor/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/ForumServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/MethodPerformace.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/PerformanceMonitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/PerformanceHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="408">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
+                <element signature="n#bead#0;n#beans#0;n#!!top" />
+                <element signature="n#bean#9;n#beans#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/advisor/WaiterDelegate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/smart/jdkproxy/ForumServiceTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/smart/advisor/AdvisorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="310">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,6 +85,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>forumServiceTarget</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -150,6 +114,31 @@
         <option value="$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/TestForumService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/smart/jdkproxy/ForumServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/PerformanceHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/advice/Waiter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/advice/NavieWaiter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/advice/GreetingBeforeAdvice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/smart/advice/BeforeAdviceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/advice/GreetingAfterAdvice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/smart/advice/AdviceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com.smart.advice/beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/advice/GreetingInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/com/smart/introduce/Monitorable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/introduce/Mointorable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/introduce/PerformanceMonitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/introduce/ForumService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/smart/introduce/beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/introduce/Monitorable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/smart/introduce/IntroduceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com.smart.introduce/beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/introduce/ControlablePerformaceMonitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/advisor/Waiter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/advisor/Seller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/advisor/GreetingAdvisor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/advisor/GreetingBeforeAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/advisor/GreetingDynamicPointcut.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/advisor/WaiterDelegate.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com.smart.advisor/beans.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/smart/advisor/AdvisorTest.java" />
       </list>
     </option>
   </component>
@@ -177,19 +166,10 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="43" />
-    <option name="y" value="241" />
-    <option name="width" value="1383" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="984" />
     <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -199,7 +179,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,27 +216,119 @@
               <item name="chapter7" type="b2602c69:ProjectViewProjectNode" />
               <item name="chapter7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="smart" type="462c0819:PsiDirectoryNode" />
+              <item name="advisor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com.smart.advice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com.smart.advisor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com.smart.introduce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="smart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="smart" type="462c0819:PsiDirectoryNode" />
+              <item name="advice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="smart" type="462c0819:PsiDirectoryNode" />
+              <item name="advisor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="smart" type="462c0819:PsiDirectoryNode" />
+              <item name="introduce" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/smart/jdkproxy" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com.smart.advisor" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\masterSpring\code\chapter7\src\main\java\com\smart\jdkproxy" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.smart.advisor" />
       <recent name="com.smart.proxy" />
       <recent name="com.smart.concept" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.smart.introduce" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\masterSpring\code\chapter7\src\main\resources\com.smart.advisor" />
+      <recent name="D:\masterSpring\code\chapter7\src\main\resources" />
+      <recent name="D:\masterSpring\code\chapter7\src\main\resources\com\smart\introduce" />
+      <recent name="D:\masterSpring\code\chapter7\src\main\resources\com.smart.advice" />
+      <recent name="D:\masterSpring\code\chapter7\src\main\java\com\smart\introduce" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -272,16 +343,57 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ForumServiceTest.proxy">
-    <configuration name="TestForumService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smart.proxy.TestForumService" />
+  <component name="RunManager" selected="TestNG.AdvisorTest.advisor">
+    <configuration name="AdviceTest.advice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="chapter7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.smart.proxy.*" />
+          <option name="PATTERN" value="com.smart.advice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.smart.advice" />
+      <option name="MAIN_CLASS_NAME" value="com.smart.advice.AdviceTest" />
+      <option name="METHOD_NAME" value="advice" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdvisorTest.advisor" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="chapter7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smart.advisor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.smart.advisor" />
+      <option name="MAIN_CLASS_NAME" value="com.smart.advisor.AdvisorTest" />
+      <option name="METHOD_NAME" value="advisor" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeforeAdviceTest.before" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="chapter7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smart.advice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.smart.advice" />
+      <option name="MAIN_CLASS_NAME" value="com.smart.advice.BeforeAdviceTest" />
+      <option name="METHOD_NAME" value="before" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -304,10 +416,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntroduceTest.introduce" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="chapter7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smart.introduce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.smart.introduce" />
+      <option name="MAIN_CLASS_NAME" value="com.smart.introduce.IntroduceTest" />
+      <option name="METHOD_NAME" value="introduce" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AdvisorTest.advisor" />
+        <item itemvalue="TestNG.IntroduceTest.introduce" />
+        <item itemvalue="TestNG.AdviceTest.advice" />
+        <item itemvalue="TestNG.BeforeAdviceTest.before" />
         <item itemvalue="TestNG.ForumServiceTest.proxy" />
-        <item itemvalue="Application.TestForumService" />
       </list>
     </recent_temporary>
   </component>
@@ -322,70 +455,82 @@
       <option name="presentableId" value="Default" />
       <updated>1584798603458</updated>
     </task>
+    <task id="LOCAL-00001" summary="introduce">
+      <created>1584936555817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584936555817</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ForumServiceTest_proxy - 2020.03.21 at 23h 34m 49s.xml">
-      <configuration name="ForumServiceTest.proxy" configurationId="TestNG" />
+    <history-entry file="AdvisorTest_advisor - 2020.03.23 at 16h 27m 49s.xml">
+      <configuration name="AdvisorTest.advisor" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AdvisorTest_advisor - 2020.03.23 at 16h 29m 00s.xml">
+      <configuration name="AdvisorTest.advisor" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AdvisorTest_advisor - 2020.03.23 at 16h 29m 35s.xml">
+      <configuration name="AdvisorTest.advisor" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AdvisorTest_advisor - 2020.03.23 at 16h 32m 34s.xml">
+      <configuration name="AdvisorTest.advisor" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AdvisorTest_advisor - 2020.03.23 at 16h 33m 19s.xml">
+      <configuration name="AdvisorTest.advisor" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AdvisorTest_advisor - 2020.03.23 at 16h 34m 05s.xml">
+      <configuration name="AdvisorTest.advisor" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AdvisorTest_advisor - 2020.03.23 at 16h 35m 58s.xml">
+      <configuration name="AdvisorTest.advisor" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AdvisorTest_advisor - 2020.03.23 at 16h 37m 18s.xml">
+      <configuration name="AdvisorTest.advisor" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AdvisorTest_advisor - 2020.03.23 at 16h 38m 29s.xml">
+      <configuration name="AdvisorTest.advisor" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AdvisorTest_advisor - 2020.03.23 at 18h 42m 28s.xml">
+      <configuration name="AdvisorTest.advisor" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26677445" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3285968" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3144705" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Structure" order="6" weight="0.2497979" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.053285968" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6625222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.0646726" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.0646726" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.024252223" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.11722913" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.0646726" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="introduce" />
+    <option name="LAST_COMMIT_MESSAGE" value="introduce" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -402,13 +547,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/proxy/Forum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/proxy/Forum.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/concept/Forum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -485,23 +624,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/TestForumService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/ForumService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/TestForumService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/ForumServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="594">
           <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
@@ -513,10 +639,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/PerformanceMonitor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/ForumService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -532,10 +658,280 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/advice/NavieWaiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/advice/GreetingBeforeAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/advice/GreetingAfterAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/advice/GreetingInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/advice/Waiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/com/smart/introduce/Monitorable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/introduce/Monitorable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/jdkproxy/PerformanceMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/smart/advice/BeforeAdviceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/smart/introduce/beans1.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/smart/jdkproxy/ForumServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com.smart.advice/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com.smart.advice/beans1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/smart/introduce/beans1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/smart/introduce/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com.smart.introduce/beans.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/smart/introduce/IntroduceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/introduce/ForumServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/introduce/PerformanceMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/introduce/Monitorable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/introduce/ForumService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/introduce/ControlablePerformaceMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/advisor/Seller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/advisor/Waiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/smart/advice/AdviceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/advisor/GreetingAdvisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/advisor/AarryList.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com.smart.introduce/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/advisor/GreetingBeforeAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/advisor/GreetingDynamicPointcut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#260#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com.smart.advisor/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="n#bead#0;n#beans#0;n#!!top" />
+            <element signature="n#bean#9;n#beans#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/advisor/WaiterDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/smart/advisor/AdvisorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

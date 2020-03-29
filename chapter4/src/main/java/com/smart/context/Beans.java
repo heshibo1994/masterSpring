@@ -1,10 +1,10 @@
 package com.smart.context;
 
 import com.smart.reflect.Car;
-import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
-@Configurable
+@Configuration
 public class Beans {
     @Bean(name = "car1")
     public Car builder(){

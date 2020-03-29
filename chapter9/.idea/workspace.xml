@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03f39ce6-0356-43a3-989d-cdde557dcb81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advice/GreetingAfterAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advice/GreetingBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advice/GreetingInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advice/NavieWaiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advice/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advisor/GreetingAdvisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advisor/GreetingBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advisor/GreetingDynamicPointcut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advisor/Seller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advisor/WaiterDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/introduce/ControlablePerformaceMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/introduce/ForumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/introduce/ForumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/introduce/Monitorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/introduce/PerformanceMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/resources/com.smart.advisor/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/test/java/com/smart/advice/AdviceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/test/java/com/smart/advice/BeforeAdviceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/test/java/com/smart/advisor/AdvisorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/test/java/com/smart/introduce/IntroduceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/src/main/java/com/smart/NaiveWaiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/src/main/java/com/smart/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/src/main/java/com/smart/aspectj/anno/ForumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/src/main/java/com/smart/aspectj/anno/NeedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/src/main/java/com/smart/aspectj/aspectj/PreGreetAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/src/main/java/com/smart/aspectj/fun/TestAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/src/main/java/com/smart/schema/AdviceMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/src/test/java/com/smart/aspectj/anno/ToolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/src/test/java/com/smart/aspectj/example/AspectJProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/src/test/java/com/smart/aspectj/fun/PointcutFunTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/src/test/java/com/smart/schema/SchemaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/js/ScriptSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/spel/CompilerSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/spel/PropertyExprSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/spel/SpelHello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter7/src/main/resources/com/smart/introduce/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter7/src/main/resources/com.smart.introduce/beans.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/spel/SpelHello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/spel/CompilerSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/spel/PropertyExprSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/spel/CollectionExprSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="24" selection-start-line="24" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/js/ScriptSample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/spel/SpelHello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/spel/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/spel/CompilerSample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/spel/PropertyExprSample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/spel/CollectionExprSample.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Spring4.x第九章实例" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Spring4.x第九章实例" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="chapter9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="smart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="smart" type="462c0819:PsiDirectoryNode" />
+              <item name="spel" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.smart.spel" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CollectionExprSample">
+    <configuration name="CollectionExprSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smart.spel.CollectionExprSample" />
+      <module name="chapter9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smart.spel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompilerSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smart.spel.CompilerSample" />
+      <module name="chapter9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertyExprSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smart.spel.PropertyExprSample" />
+      <module name="chapter9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smart.spel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScriptSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smart.js.ScriptSample" />
+      <module name="chapter9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smart.js.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpelHello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smart.spel.SpelHello" />
+      <module name="chapter9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CollectionExprSample" />
+        <item itemvalue="Application.PropertyExprSample" />
+        <item itemvalue="Application.CompilerSample" />
+        <item itemvalue="Application.SpelHello" />
+        <item itemvalue="Application.ScriptSample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03f39ce6-0356-43a3-989d-cdde557dcb81" name="Default Changelist" comment="" />
+      <created>1585144266879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585144266879</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19967663" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15097691" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.13823767" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/smart/spel/PropertyExprSample.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/js/ScriptSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/spel/PropertyExprSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/spel/CompilerSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/spel/SpelHello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/spel/CollectionExprSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="24" selection-start-line="24" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
