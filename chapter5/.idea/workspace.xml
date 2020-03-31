@@ -2,64 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c6e8104-bb73-4841-9d3d-2c6e393ade74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MVC_1/src/main/java/com/smart/spring/mvc/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC_1/src/main/java/com/smart/spring/mvc/service/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter13/src/main/java/com/smart/dao/ForumDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter13/src/main/java/com/smart/dao/TopicDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter13/src/main/java/com/smart/domain/Forum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advice/GreetingAfterAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advice/GreetingBeforeAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advice/GreetingInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advice/NavieWaiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advice/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advisor/GreetingAdvisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advisor/GreetingBeforeAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advisor/GreetingDynamicPointcut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advisor/Seller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/advisor/WaiterDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/introduce/ControlablePerformaceMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/introduce/ForumService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/introduce/ForumServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/introduce/Monitorable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/java/com/smart/introduce/PerformanceMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/main/resources/com.smart.advisor/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/test/java/com/smart/advice/AdviceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/test/java/com/smart/advice/BeforeAdviceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/test/java/com/smart/advisor/AdvisorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter7/src/test/java/com/smart/introduce/IntroduceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter8/src/main/java/com/smart/NaiveWaiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter8/src/main/java/com/smart/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter8/src/main/java/com/smart/aspectj/anno/ForumService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter8/src/main/java/com/smart/aspectj/anno/NeedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter8/src/main/java/com/smart/aspectj/aspectj/PreGreetAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter8/src/main/java/com/smart/aspectj/fun/TestAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter8/src/main/java/com/smart/schema/AdviceMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter8/src/test/java/com/smart/aspectj/anno/ToolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter8/src/test/java/com/smart/aspectj/example/AspectJProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter8/src/test/java/com/smart/aspectj/fun/PointcutFunTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter8/src/test/java/com/smart/schema/SchemaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter9/src/main/java/com/smart/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter9/src/main/java/com/smart/js/ScriptSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter9/src/main/java/com/smart/spel/CompilerSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter9/src/main/java/com/smart/spel/PropertyExprSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter9/src/main/java/com/smart/spel/SpelHello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter4/src/main/java/com/smart/beanfactory/BeanFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/src/test/java/com/smart/beanfactory/BeanFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter4/src/main/java/com/smart/beanfactory/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/src/main/resources/com.smart.beanfactory/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter4/src/main/java/com/smart/context/AnnotationApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/src/test/java/com/smart/context/AnnotationApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter4/src/main/java/com/smart/context/Beans.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/src/main/java/com/smart/context/Beans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter4/target/chapter4-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter4/target/classes/com/smart/beanfactory/BeanFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter4/target/classes/com/smart/context/groovy-beans$_run_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter4/target/classes/com/smart/context/groovy-beans$_run_closure1_closure2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter4/target/classes/com/smart/context/groovy-beans.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter4/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter4/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter4/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter4/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter7/src/main/resources/com/smart/introduce/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter7/src/main/resources/com.smart.introduce/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter17/src/main/java/com/smart/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter17/src/main/java/com/smart/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/conf/JavaConfigTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="243">
               <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -458,7 +403,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2069523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21018593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -762,7 +707,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/conf/JavaConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="243">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
