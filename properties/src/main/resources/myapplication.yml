@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: myapplication
+---
+spring:
+  profiles: dev
+mykey: devValue
+---
+spring:
+  profiles: test
+myKey: testValue

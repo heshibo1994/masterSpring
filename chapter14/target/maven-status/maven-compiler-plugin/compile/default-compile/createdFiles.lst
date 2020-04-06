@@ -1,0 +1,3 @@
+com\smart\orm\dao\hibernate\Forum.class
+com\smart\orm\dao\hibernate\ForumHibernateDao.class
+com\smart\orm\dao\hibernate\BaseDao.class

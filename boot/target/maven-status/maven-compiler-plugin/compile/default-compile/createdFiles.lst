@@ -1,0 +1,3 @@
+com\mxixm\spring\boot\Starter.class
+com\mxixm\spring\boot\service\DemoService.class
+com\mxixm\spring\boot\controller\DemoController.class
