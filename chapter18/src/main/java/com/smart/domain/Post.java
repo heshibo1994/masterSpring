@@ -20,7 +20,7 @@ public class Post extends BaseDomain {
     @Column(name = "post_id")
     private int postId;
     @Column(name = "post_title")
-    private int postTitle;
+    private String postTitle;
     @Column(name = "post_text")
     private int postText;
     @Column(name = "board_id")
@@ -41,11 +41,11 @@ public class Post extends BaseDomain {
         this.postId = postId;
     }
 
-    public int getPostTitle() {
+    public String getPostTitle() {
         return postTitle;
     }
 
-    public void setPostTitle(int postTitle) {
+    public void setPostTitle(String postTitle) {
         this.postTitle = postTitle;
     }
 
