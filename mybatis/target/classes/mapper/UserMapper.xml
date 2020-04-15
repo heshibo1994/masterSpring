@@ -35,28 +35,5 @@
         select id _id,username _username from user where id=#{value}
     </select>
 
-    <resultMap id="shoppingResult" type="com.mybatis.po.ShoppingCart">
-        <id property="scartid" column="cart_id"/>
-        <result property="pname" column="product_name"/>
-        <association property="user" javaType="com.mybatis.po.User">
-            <id property="id" column="user_id"/>
-            <result property="username" column="user_username"/>
-            <result property="gender" column="user_gender"/>
-            <result property="email" column="user_email"/>
-        </association>
-    </resultMap>
-
-    <select id="queryShoppingCart" parameterType="int" resultMap="shoppingResult">
-        select
-        S.id as cart_id
-        S.name as product_name
-        S.userid as cart_user_id
-        U.id as user_id
-        U.username as user_username
-        U.gender as user_gender
-        U.email as user_email
-        from shoppingcart S left outer join user U on S.userid =U.id where S.id=#{id}
-    </select>
-
 
 </mapper>
