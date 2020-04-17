@@ -58,5 +58,6 @@
         from shoppingcart S left outer join user U on S.userid =U.id where S.id=#{id}
     </select>
 
-
 </mapper>
+
+

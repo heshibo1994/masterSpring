@@ -2,9 +2,10 @@ package com.mybatis.po;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 public class User implements Serializable {
-    private int id;
+    private int userId;
     private String username;
     private String password;
     private String gender;
@@ -13,10 +14,24 @@ public class User implements Serializable {
     private String city;
     private Date birthday;
 
+    private String sex;
+    private String addr;
+
+    private List<Orders> orders;
+
+    public List<Orders> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(List<Orders> orders) {
+        this.orders = orders;
+    }
+
 
     public User(){}
-    public User(int id, String username, String password, String gender, String email, String province, String city, Date birthday) {
-        this.id = id;
+
+    public User(int userId, String username, String password, String gender, String email, String province, String city, Date birthday) {
+        this.userId = userId;
         this.username = username;
         this.password = password;
         this.gender = gender;
@@ -26,12 +41,25 @@ public class User implements Serializable {
         this.birthday = birthday;
     }
 
-    public int getId() {
-        return id;
+    public User(int userId, String username, String password, String gender, String email, String province, String city, Date birthday, String sex, String addr) {
+        this.userId = userId;
+        this.username = username;
+        this.password = password;
+        this.gender = gender;
+        this.email = email;
+        this.province = province;
+        this.city = city;
+        this.birthday = birthday;
+        this.sex = sex;
+        this.addr = addr;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public int getUserId() {
+        return userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
     public String getUsername() {
@@ -82,18 +110,37 @@ public class User implements Serializable {
         this.city = city;
     }
 
-    public Date getBirtheday() {
+    public Date getBirthday() {
         return birthday;
     }
 
-    public void setBirthdaye(Date birthday) {
+    public void setBirthday(Date birthday) {
         this.birthday = birthday;
+    }
+
+
+
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public String getAddr() {
+        return addr;
+    }
+
+    public void setAddr(String addr) {
+        this.addr = addr;
     }
 
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
+                "id=" + userId +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", gender='" + gender + '\'' +

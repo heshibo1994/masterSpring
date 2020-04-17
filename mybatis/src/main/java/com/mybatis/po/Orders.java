@@ -1,13 +1,25 @@
 package com.mybatis.po;
 
 import java.sql.Date;
+import java.util.List;
 
-public class Order {
+public class Orders {
     private Integer id;
     private Integer userId;
     private String number;
     private Date createtime;
     private String note;
+    private User user;
+
+    private List<OrderDetails> orderDetails;
+
+    public List<OrderDetails> getOrderDetails() {
+        return orderDetails;
+    }
+
+    public void setOrderDetails(List<OrderDetails> orderDetails) {
+        this.orderDetails = orderDetails;
+    }
 
     public Integer getId() {
         return id;
@@ -47,5 +59,13 @@ public class Order {
 
     public void setNote(String note) {
         this.note = note;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 }
