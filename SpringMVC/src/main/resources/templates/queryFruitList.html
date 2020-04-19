@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+  <title>新的水果列表123</title>  
+</head>  
+<body>     
+  <h3>新的水果列表123</h3>
+  <table width="300px;" border=1>  
+    <tr>  
+      <td>名称</td>  
+      <td>价格</td>    
+      <td>产地</td> 
+   </tr>  
+<!--   <th:forEach items="${fruitsList }" var="fruit">-->
+<!--     <tr>  -->
+<!--       <td>${fruit.name }</td>-->
+<!--       <td>${fruit.price }</td>    -->
+<!--       <td>${fruit.location }</td>-->
+<!--     </tr>  -->
+<!--    </th:forEach>-->
+
+      <tr  th:each="fruit : ${fruitsList}">
+          <td th:text="${fruit.name}">neo</td>
+          <td th:text="${fruit.price}">neo</td>
+          <td th:text="${fruit.location}">Otto</td>
+      </tr>
+
+
+   </table>
+</body>  
+</html> 
