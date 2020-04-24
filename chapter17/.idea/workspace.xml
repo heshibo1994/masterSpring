@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c440e45c-4608-4ca2-951c-43efed232d29" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../chapter14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter14/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fruitMange/src/main/com/hsb/fruitManage/dao/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fruitMange/src/main/com/hsb/fruitManage/dao/impl/BaseDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fruitMange/src/main/com/hsb/fruitManage/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/src/main/java/com/mxixm/spring/boot/view/ForwardViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/src/main/java/com/mxixm/spring/boot/view/ThymeleafView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/src/main/resources/templates/fruitList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/target/boot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/target/boot-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/target/boot-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/target/boot-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/target/classes/META-INF/SpringMVC.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/target/classes/com/mxixm/spring/boot/view/ForwardViewController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/target/classes/com/mxixm/spring/boot/view/ThymeleafView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/target/classes/templates/fruitList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/success_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/success_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/user/createSuccess_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/user/createSuccess_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter18/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter18/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter18/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter18/target/chapter18-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter18/target/chapter18-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter18/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter18/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter18/target/work/jsp/org/apache/jsp/login_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisAndspring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatisAndspring/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/web/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1566">
+            <state relative-caret-position="1458">
               <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -43,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="242" selection-start-line="242" selection-end-line="255" selection-end-column="21" />
+            <state relative-caret-position="186">
+              <caret line="255" column="21" lean-forward="true" selection-start-line="255" selection-start-column="21" selection-end-line="255" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -153,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/smart/User.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/smart-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
@@ -162,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/smart/web/UserControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smart/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smart/web/UserController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -212,6 +219,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -309,25 +317,6 @@
               <item name="chapter17" type="b2602c69:ProjectViewProjectNode" />
               <item name="chapter17" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter17" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter17" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter17" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter17" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -368,7 +357,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -443,8 +431,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19320938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.196443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -454,7 +443,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.13854352" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3321492" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -466,7 +455,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.16248989" />
+      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.16248989" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -561,9 +550,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/success.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/web/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
+        <state relative-caret-position="1458">
           <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -571,9 +563,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/success.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -640,8 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="242" selection-start-line="242" selection-end-line="255" selection-end-column="21" />
+        <state relative-caret-position="186">
+          <caret line="255" column="21" lean-forward="true" selection-start-line="255" selection-start-column="21" selection-end-line="255" selection-end-column="21" />
         </state>
       </provider>
     </entry>
