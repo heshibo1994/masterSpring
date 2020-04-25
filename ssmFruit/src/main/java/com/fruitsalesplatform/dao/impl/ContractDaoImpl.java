@@ -14,7 +14,7 @@ import com.fruitsalesplatform.entity.MiddleTab;
 public class ContractDaoImpl  extends BaseDaoImpl<Contract> implements ContractDao{
     public ContractDaoImpl(){  
         //设置命名空间  
-        super.setNs("com.fruitsalesplatform.mapper.ContractMapper");
+        super.setNs("com.fruitsalesplatform.mapper.ContractMapper");  
     }
     public int count(Map map) {
 		return this.getSqlSession().selectOne(this.getNs() + ".count", map);

@@ -11,7 +11,7 @@ import com.fruitsalesplatform.entity.Commodities;
 public class CommoditiesDaoImpl extends BaseDaoImpl<Commodities> implements CommoditiesDao{  
     public CommoditiesDaoImpl(){  
         //设置命名空间  
-        super.setNs("com.fruitsalesplatform.mapper.CommoditiesMapper");
+        super.setNs("com.fruitsalesplatform.mapper.CommoditiesMapper");  
     }
     //实现接口自己的方法定义
 	public int count(Map map) {

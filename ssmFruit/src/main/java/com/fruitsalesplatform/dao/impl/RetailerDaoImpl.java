@@ -11,7 +11,7 @@ import com.fruitsalesplatform.entity.Retailer;
 public class RetailerDaoImpl extends BaseDaoImpl<Retailer> implements RetailerDao{  
     public RetailerDaoImpl(){  
         //设置命名空间  
-        super.setNs("com.fruitsalesplatform.mapper.RetailerMapper");
+        super.setNs("com.fruitsalesplatform.mapper.RetailerMapper");  
     }
     //实现接口自己的方法定义
 	public int count(Map map) {

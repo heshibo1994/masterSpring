@@ -11,7 +11,7 @@ import com.fruitsalesplatform.entity.Accessory;
 public class AccessoryDaoImpl extends BaseDaoImpl<Accessory> implements AccessoryDao{  
     public AccessoryDaoImpl(){  
         //设置命名空间  
-        super.setNs("com.fruitsalesplatform.mapper.AccessoryMapper");
+        super.setNs("com.fruitsalesplatform.mapper.AccessoryMapper");  
     }
     //实现接口自己的方法定义
 	public int count(Map map) {

@@ -3,7 +3,7 @@
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
 
-<mapper namespace="com.fruitsalesplatform.mapper.ContractMapper">
+<mapper namespace="com.fruitsalesplatform.mapper.ContractMapper">  
     <!-- resultMap映射 -->
 	<resultMap type="com.fruitsalesplatform.entity.ContractVo" id="ContractVoRM">
 		<!-- 主键 -->
@@ -45,7 +45,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		<result property="createTime" column="createtime"/>
 		
 		<!-- 零售商信息，一个合同对应一个零售商信息 -->
-		<association property="retailer" javaType="com.fruitsalesplatform.entity.Retailer">
+		<association property="retailer" javaType="com.fruitsalesplatform.entity.Retailer">  
             <id property="retailerId" column="retailerid" jdbcType="VARCHAR" />
             <result property="name" column="retailer_name"/>
 			<result property="telphone" column="telphone"/>
@@ -53,14 +53,14 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         </association>  
 		
 		<!--货物信息，一个合同对应多个货物-->  
-	    <collection property="commoditiesList" ofType="com.fruitsalesplatform.entity.CommoditiesVo">
+	    <collection property="commoditiesList" ofType="com.fruitsalesplatform.entity.CommoditiesVo">  
 			<id property="fruitId" column="fruitid" jdbcType="VARCHAR" />
 			<result property="name" column="fruit_name"/>
 			<result property="price" column="price" jdbcType="DOUBLE"/>
 			<result property="locality" column="locality"/> 
 			<result property="number" column="number"/> 
 			
-			<collection property="accessoryList" ofType="com.fruitsalesplatform.entity.Accessory">
+			<collection property="accessoryList" ofType="com.fruitsalesplatform.entity.Accessory">  
 				<result property="name" column="accessory_name"/>
 				<result property="price" column="accessory_price" jdbcType="DOUBLE"/>
 	        </collection>
