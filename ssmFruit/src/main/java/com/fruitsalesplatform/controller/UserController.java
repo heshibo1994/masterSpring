@@ -51,9 +51,9 @@ public class UserController extends BaseController{
     } 
     
     //注册
-    @RequestMapping("/user/register.action")  
+    @RequestMapping("/user/register.action")
     public String register(User user,Model model,HttpServletRequest request,
-    		HttpServletResponse response) throws Exception{  
+    		HttpServletResponse response) throws Exception{
     	//查找账号是否已被注册
     	Map<String,String> map = new HashMap<String,String>();
 		map.put("username", user.getUserName());
@@ -66,6 +66,6 @@ public class UserController extends BaseController{
 		user.setUserId(UUID.randomUUID().toString());//为用户设置UUID主键
 		userService.insert(user);
 		model.addAttribute("noticeMsg", "注册成功！请输入账号密码登录");//错误消息
-		return "/login.jsp";//转向登录页面  
-    } 
+		return "/login.jsp";//转向登录页面
+    }
 }

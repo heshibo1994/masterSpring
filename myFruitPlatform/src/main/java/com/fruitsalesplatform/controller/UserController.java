@@ -42,6 +42,12 @@ public class UserController extends BaseController {
         }
     }
 
+    // 跳转到登录页面
+    @RequestMapping("user/registerPage.action")
+    public String register(){
+        return "/register.jsp";
+    }
+
 
 
 }
