@@ -39,11 +39,11 @@ public class User {
         this.name = name;
     }
 
-    public String getTelphone() {
+    public String getTelephone() {
         return telephone;
     }
 
-    public void setTelphone(String telephone) {
+    public void setTelephone(String telephone) {
         this.telephone = telephone;
     }
 }

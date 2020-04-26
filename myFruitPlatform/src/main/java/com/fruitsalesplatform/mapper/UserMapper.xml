@@ -29,6 +29,18 @@
         <if test="telephone != null"> and telephone = #{telephone}</if>
     </select>
 
+    <!--    添加-->
+    <insert id="insert" parameterType="com.fruitsalesplatform.entity.User">
+            insert into user(userid,username,password,name,telephone)
+            values
+            (#{userId,jdbcType = VARCHAR},
+            #{userName,jdbcType = VARCHAR},
+            #{password,jdbcType = VARCHAR},
+            #{name,jdbcType = VARCHAR},
+            #{telephone,jdbcType = VARCHAR}
+             )
+     </insert>
+
 
 
 

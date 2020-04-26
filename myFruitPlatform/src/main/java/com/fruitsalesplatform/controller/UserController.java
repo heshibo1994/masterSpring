@@ -9,9 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.annotation.Resource;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 
 @Controller
 public class UserController extends BaseController {
@@ -42,10 +44,26 @@ public class UserController extends BaseController {
         }
     }
 
-    // 跳转到登录页面
+    // 跳转到注册页面
     @RequestMapping("user/registerPage.action")
-    public String register(){
+    public String toRegister(){
         return "/register.jsp";
+    }
+
+    // 后段注册
+    @RequestMapping("user/register.action")
+    public String register(User user, Model model, HttpServletRequest request, HttpServletResponse response){
+        Map<String,String> map = new HashMap<String,String>();
+        map.put("username",user.getUserName());
+        List<User> userList = userService.find(map);
+        if (userList!=null && userList.size()>0){
+            model.addAttribute("errorMsg","该用户名已经被注册了");
+            return "/register.jsp";//重新注册
+        }
+        user.setUserId(UUID.randomUUID().toString());
+        userService.insert(user); //添加用户
+        model.addAttribute("noticeMsg","注册成功");
+        return "/login.jsp";//转向登录
     }
 
 
