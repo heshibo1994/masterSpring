@@ -10,11 +10,11 @@
 <html>
 <head>
     <title>主页</title>
-<%--    <style>*{margin:0; padding:0;}#menuContent a{text-decoration:none;color:#ffffff}</style>--%>
+    <style>*{margin:0; padding:0;}#menuContent a{text-decoration:none;color:#ffffff}</style>
 </head>
 <body>
 欢迎你 ${user.userName}<br>
-<%--<%@ include file="menu.jsp" %>--%>
+<%@ include file="menu.jsp" %>
 </body>
 </html>
 

@@ -26,7 +26,7 @@ public class UserController extends BaseController {
         return "/login.jsp";
     }
 
-    // 跳转到登录页面
+    // 列表
     @RequestMapping("user/login.action")
     public String Login(User user, Model model, HttpServletRequest request){
         Map<String,String> map = new HashMap<String,String>();
