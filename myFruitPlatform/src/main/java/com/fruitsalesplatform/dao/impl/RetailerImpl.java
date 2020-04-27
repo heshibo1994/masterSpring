@@ -12,6 +12,6 @@ public class RetailerImpl extends BaseDaoImpl<Retailer> implements RetailerDao {
     }
     @Override
     public int count(Map map) {
-        return this.getSqlSession().selectOne(this.getNs()+".mp",map);
+        return this.getSqlSession().selectOne(this.getNs()+".count",map);
     }
 }

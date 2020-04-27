@@ -26,7 +26,9 @@ public class RetailerController extends BaseController{
 	
 	//跳转至列表页面
 	@RequestMapping("/retailer/list.action")  
-    public String list(Model model,Retailer retailer,String startTime,String endTime){ 
+    public String list(Model model,Retailer retailer,String startTime,String endTime){
+
+		System.out.println("11111111111111111:"+retailer.getName());
 		Map<String,Object> map = this.retailerToMap(retailer);
 		if(startTime!=null&&!startTime.equals("")){
 			map.put("startTime", startTime);
