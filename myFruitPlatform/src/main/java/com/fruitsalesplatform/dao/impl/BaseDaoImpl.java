@@ -26,6 +26,10 @@ public abstract  class BaseDaoImpl<T> extends SqlSessionDaoSupport implements Ba
         this.ns = ns;
     }
 
+    public String getNs() {
+        return ns;
+    }
+
     // 3
     @Override
     public T get(Serializable id) {

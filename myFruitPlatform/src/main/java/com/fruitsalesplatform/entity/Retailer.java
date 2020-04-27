@@ -1,6 +1,6 @@
 package com.fruitsalesplatform.entity;
 
-public class Retailer {
+public class Retailer extends PageEntity {
     private String retailerId;
     private String name;
     private String telephone;

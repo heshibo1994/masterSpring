@@ -7,6 +7,7 @@
   <body>
     <script language="JavaScript">
 	 window.location.href = "user/toLogin.action";
+	 // alert("hello");
 	</script>
   </body>
 </html>
