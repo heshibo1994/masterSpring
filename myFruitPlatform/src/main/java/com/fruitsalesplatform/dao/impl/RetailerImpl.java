@@ -10,6 +10,7 @@ public class RetailerImpl extends BaseDaoImpl<Retailer> implements RetailerDao {
     public RetailerImpl(){
         super.setNs("com.fruitsalesplatform.mapper.RetailerMapper");
     }
+
     @Override
     public int count(Map map) {
         return this.getSqlSession().selectOne(this.getNs()+".count",map);
