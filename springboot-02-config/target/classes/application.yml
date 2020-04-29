@@ -1,0 +1,31 @@
+
+person:
+  name: keran${random.uuid}
+  age: 24
+  birth: 2000/1/3
+  email: cusheshibo@163.com
+  map:
+    sex: male
+    country: china
+  list:
+    - football
+    - basketball
+  dog:
+    name: ${person.name}_lala
+    age: 2
+
+server:
+  port: 8080
+spring:
+  profiles:
+    active: prod
+---
+server:
+  port: 8081
+spring:
+  profiles: dev
+---
+server:
+  port: 8082
+spring:
+  profiles: prod
