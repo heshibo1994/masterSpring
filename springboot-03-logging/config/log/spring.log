@@ -1,0 +1,8 @@
+2020-04-30 16:46:27.777  INFO 9592 --- [main] .s.s.Springboot03LoggingApplicationTests : Starting Springboot03LoggingApplicationTests on HSB with PID 9592 (started by Administrator in D:\masterSpring\code\springboot-03-logging)
+2020-04-30 16:46:27.783  INFO 9592 --- [main] .s.s.Springboot03LoggingApplicationTests : No active profile set, falling back to default profiles: default
+2020-04-30 16:46:30.719  INFO 9592 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-30 16:46:31.263  INFO 9592 --- [main] .s.s.Springboot03LoggingApplicationTests : Started Springboot03LoggingApplicationTests in 4.643 seconds (JVM running for 6.908)
+2020-04-30 16:46:32.026  INFO 9592 --- [main] .s.s.Springboot03LoggingApplicationTests : 这是info日志
+2020-04-30 16:46:32.034  WARN 9592 --- [main] .s.s.Springboot03LoggingApplicationTests : 这是warn日志
+2020-04-30 16:46:32.035 ERROR 9592 --- [main] .s.s.Springboot03LoggingApplicationTests : 这是error日志
+2020-04-30 16:46:32.081  INFO 9592 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
