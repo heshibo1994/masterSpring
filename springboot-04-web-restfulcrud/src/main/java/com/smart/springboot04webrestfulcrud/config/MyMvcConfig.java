@@ -54,5 +54,4 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
 
         return new MyLocaleResolver();
     }
-
 }
