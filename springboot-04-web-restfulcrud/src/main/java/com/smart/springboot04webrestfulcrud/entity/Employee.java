@@ -2,6 +2,8 @@ package com.smart.springboot04webrestfulcrud.entity;
 
 import java.util.Date;
 
+
+
 public class Employee {
     private Integer id;
     private String lastName;
@@ -9,6 +11,21 @@ public class Employee {
     private Integer gender;
     private Department department;
     private Date birth;
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", gender=" + gender +
+                ", department=" + department +
+                ", birth=" + birth +
+                '}';
+    }
+
+    public Employee() {
+    }
 
     public Employee(Integer id, String lastName, String email, Integer gender, Department department, Date birth) {
         this.id = id;

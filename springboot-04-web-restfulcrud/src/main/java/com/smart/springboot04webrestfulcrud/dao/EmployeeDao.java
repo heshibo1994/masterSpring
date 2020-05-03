@@ -3,12 +3,13 @@ package com.smart.springboot04webrestfulcrud.dao;
 import com.smart.springboot04webrestfulcrud.entity.Department;
 import com.smart.springboot04webrestfulcrud.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
-
+@Repository
 public class EmployeeDao {
     private static Map<Integer, Employee> employees = null;
 
@@ -17,9 +18,9 @@ public class EmployeeDao {
     static{
         employees = new HashMap<Integer, Employee>();
         employees.put(1,new Employee(1,"e_AA","e_AA_1@163.com",1,new Department(101,"d_AA"),new Date(2014, 1, 1)));
-        employees.put(1,new Employee(2,"e_BB","e_BB_2@163.com",0,new Department(102,"d_BB"),new Date(2015, 2, 2)));
-        employees.put(1,new Employee(3,"e_CC","e_CC_3@163.com",0,new Department(103,"d_CC"),new Date(2016, 4, 4)));
-        employees.put(1,new Employee(4,"e_DD","e_DD_4@163.com",1,new Department(104,"d_DD"),new Date(2017, 5, 5)));
+        employees.put(2,new Employee(2,"e_BB","e_BB_2@163.com",0,new Department(102,"d_BB"),new Date(2015, 2, 2)));
+        employees.put(3,new Employee(3,"e_CC","e_CC_3@163.com",0,new Department(103,"d_CC"),new Date(2016, 4, 4)));
+        employees.put(4,new Employee(4,"e_DD","e_DD_4@163.com",1,new Department(104,"d_DD"),new Date(2017, 5, 5)));
     }
     private static Integer initId = 4;
 

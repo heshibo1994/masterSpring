@@ -18,7 +18,7 @@ public class DepartmentDao {
         departments.put(104,new Department(104,"d_DD"));
         departments.put(105,new Department(105,"d_EE"));
     }
-    public Collection<Department> getDepartments(Integer id){
+    public Collection<Department> getDepartments(){
         return departments.values();
     }
 
