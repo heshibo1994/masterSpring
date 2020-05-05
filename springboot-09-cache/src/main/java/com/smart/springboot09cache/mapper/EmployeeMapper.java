@@ -1,6 +1,7 @@
 package com.smart.springboot09cache.mapper;
 
-import com.atguigu.cache.bean.Employee;
+
+import com.smart.springboot09cache.entity.Employee;
 import org.apache.ibatis.annotations.*;
 
 @Mapper

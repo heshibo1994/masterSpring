@@ -1,4 +1,4 @@
-package com.atguigu.cache;
+package com.smart.springboot09cache.entity;
 
 public class Employee {
 	

@@ -1,6 +1,7 @@
-package com.atguigu.cache.mapper;
+package com.smart.springboot09cache.mapper;
 
-import com.atguigu.cache.bean.Department;
+
+import com.smart.springboot09cache.entity.Department;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
